@@ -1,0 +1,38 @@
+[
+  {
+    "id": "medicated-herbal-boolim",
+    "title": "Medicated Herbal Spray For Muscle Pain Relief Boolim Brand",
+    "thai": "สเปรย์สมุนไพรสำหรับบรรเทาอาการปวดเมื่อย ตราบู๊ลิ้ม",
+    "category": "HERBAL CARE",
+    "registration": "G 818/68",
+    "size": "80 มิลลิลิตร",
+    "use": [
+      "ใช้พ่นแล้วทา บริเวณที่มีอาการ"
+    ],
+    "ingredients": [
+      "เถาวัลย์เรียง",
+      "เถาเอ็นอ่อน",
+      "เถาโคคลาน",
+      "เกล็ดสะระแหน่",
+      "พิมเสน",
+      "การบูร"
+    ],
+    "img": "/images/products/herbal-boolim/medicated-herbal-boolim_1.webp",
+    "gallery": [
+      "/images/products/herbal-boolim/medicated-herbal-boolim_1.webp",
+      "/images/products/herbal-boolim/medicated-herbal-boolim_2.webp",
+      "/images/products/herbal-boolim/medicated-herbal-boolim_3.webp",
+      "/images/products/herbal-boolim/medicated-herbal-boolim_4.webp",
+      "/images/products/herbal-boolim/medicated-herbal-boolim_5.webp",
+      "/images/products/herbal-boolim/medicated-herbal-boolim_6.webp",
+      "/images/products/herbal-boolim/medicated-herbal-boolim_7.webp"
+    ],
+    "herbalType": "spray",
+    "slug": "boolim-herbal-pain-relief-spray",
+    "relatedGroup": "herbal-pain-relief",
+    "detailPage": true,
+    "price": 399,
+    "featured": true,
+    "featuredOrder": 1
+  }
+]

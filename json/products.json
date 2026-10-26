@@ -1,0 +1,481 @@
+[
+  {
+    "id": "hair-dye-dark-brown",
+    "title": "Hair Dye Shampoo Natural Dark Brown",
+    "thai": "แชมพูเปลี่ยนสีผม น้ำตาลประกายทองธรรมชาติ",
+    "category": "HAIR CARE",
+    "registration": "10-2-610002263",
+    "size": "25 มิลลิลิตร",
+    "use": [
+      "สวมถุงมือ แล้วฉีกซองบีบแชมพูทั้งสองส่วนลงบนฝ่ามือ คนส่วนผสมให้เป็นเนื้อเดียวกัน (ก่อนย้อม ใช้ครีมหรือโลชั่นทาบริเวณผิวหนังเพื่อไม่ให้สีติด และเช็ดออกได้ง่าย)",
+      "ชโลมแชมพูลงบนผมที่หมาด นวดเน้นตรงผมขาวเป็นพิเศษ แล้วนวดให้เกิดฟองให้ทั่วทั้งศีรษะจากโคนจรดปลาย",
+      "ทิ้งไว้ประมาณ 15–30 นาที กรณีเส้นผมใหญ่ควรใช้เวลาเพิ่มขึ้น และกรณีผมยาวควรใช้ 2 ซอง",
+      "เมื่อสีติดผมทั่วศีรษะแล้ว ให้ล้างออกด้วยน้ำสะอาด แล้วนวดเส้นผมด้วยทรีทเมนท์บำรุงเส้นผม"
+    ],
+    "ingredients": [
+      "น้ำมันงาดำ / Sesame Oil",
+      "เฮนน่าธรรมชาติ / Natural Henna",
+      "โชวู / Polygonum Multiflorum Root Extract"
+    ],
+    "img": "/images/products/hair-dye-dark-brown.webp",
+    "gallery": [
+      "/images/products/hair-dye-dark-brown.webp"
+    ],
+    "slug": "hair-dye-shampoo-natural-dark-brown",
+    "relatedGroup": "hair-color-shampoo",
+    "detailPage": true,
+    "price": 89,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "hair-dye-chestnut-red-brown",
+    "title": "Hair Dye Shampoo Natural Chestnut Red Brown",
+    "thai": "แชมพูเปลี่ยนสีผม สีน้ำตาลอมแดง",
+    "category": "HAIR CARE",
+    "registration": "10-2-6100022628",
+    "size": "25 มิลลิลิตร",
+    "use": [
+      "สวมถุงมือ แล้วฉีกซองบีบแชมพูทั้งสองส่วนลงบนฝ่ามือ คนส่วนผสมให้เป็นเนื้อเดียวกัน (ก่อนย้อม ใช้ครีมหรือโลชั่นทาบริเวณผิวหนังเพื่อไม่ให้สีติด และเช็ดออกได้ง่าย)",
+      "ชโลมแชมพูลงบนผมที่หมาด นวดเน้นตรงผมขาวเป็นพิเศษ แล้วนวดให้เกิดฟองให้ทั่วทั้งศีรษะจากโคนจรดปลาย",
+      "ทิ้งไว้ประมาณ 15–30 นาที กรณีเส้นผมใหญ่ควรใช้เวลาเพิ่มขึ้น และกรณีผมยาวควรใช้ 2 ซอง",
+      "เมื่อสีติดผมทั่วศีรษะแล้ว ให้ล้างออกด้วยน้ำสะอาด แล้วนวดเส้นผมด้วยทรีทเมนท์บำรุงเส้นผม"
+    ],
+    "ingredients": [
+      "น้ำมันงาดำ / Sesame Oil",
+      "เฮนน่าธรรมชาติ / Natural Henna",
+      "โชวู / Polygonum Multiflorum Root Extract"
+    ],
+    "img": "/images/products/hair-dye-chestnut-red-brown.webp",
+    "gallery": [
+      "/images/products/hair-dye-chestnut-red-brown.webp"
+    ],
+    "slug": "hair-dye-shampoo-natural-chestnut-red-brown",
+    "relatedGroup": "hair-color-shampoo",
+    "detailPage": true,
+    "price": 89,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "hair-dye-natural-black",
+    "title": "Hair Dye Shampoo Natural Black",
+    "thai": "แชมพูเปลี่ยนสีผม สีดำธรรมชาติ",
+    "category": "HAIR CARE",
+    "registration": "10-2-6100022069",
+    "size": "25 มิลลิลิตร",
+    "use": [
+      "สวมถุงมือ แล้วฉีกซองบีบแชมพูทั้งสองส่วนลงบนฝ่ามือ คนส่วนผสมให้เป็นเนื้อเดียวกัน (ก่อนย้อม ใช้ครีมหรือโลชั่นทาบริเวณผิวหนังเพื่อไม่ให้สีติด และเช็ดออกได้ง่าย)",
+      "ชโลมแชมพูลงบนผมที่หมาด นวดเน้นตรงผมขาวเป็นพิเศษ แล้วนวดให้เกิดฟองให้ทั่วทั้งศีรษะจากโคนจรดปลาย",
+      "ทิ้งไว้ประมาณ 15–30 นาที กรณีเส้นผมใหญ่ควรใช้เวลาเพิ่มขึ้น และกรณีผมยาวควรใช้ 2 ซอง",
+      "เมื่อสีติดผมทั่วศีรษะแล้ว ให้ล้างออกด้วยน้ำสะอาด แล้วนวดเส้นผมด้วยทรีทเมนท์บำรุงเส้นผม"
+    ],
+    "ingredients": [
+      "น้ำมันงาดำ / Sesame Oil",
+      "เฮนน่าธรรมชาติ / Natural Henna",
+      "โชวู / Polygonum Multiflorum Root Extract"
+    ],
+    "img": "/images/products/hair-dye-natural-black.webp",
+    "gallery": [
+      "/images/products/hair-dye-natural-black.webp"
+    ],
+    "slug": "hair-dye-shampoo-natural-black",
+    "relatedGroup": "hair-color-shampoo",
+    "detailPage": true,
+    "price": 89,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "hair-dye-light-brown",
+    "title": "Hair Dye Shampoo Natural Light Brown",
+    "thai": "แชมพูเปลี่ยนสีผม น้ำตาลประกายทอง",
+    "category": "HAIR CARE",
+    "registration": "10-2-6100022454",
+    "size": "25 มิลลิลิตร",
+    "use": [
+      "สวมถุงมือ แล้วฉีกซองบีบแชมพูทั้งสองส่วนลงบนฝ่ามือ คนส่วนผสมให้เป็นเนื้อเดียวกัน (ก่อนย้อม ใช้ครีมหรือโลชั่นทาบริเวณผิวหนังเพื่อไม่ให้สีติด และเช็ดออกได้ง่าย)",
+      "ชโลมแชมพูลงบนผมที่หมาด นวดเน้นตรงผมขาวเป็นพิเศษ แล้วนวดให้เกิดฟองให้ทั่วทั้งศีรษะจากโคนจรดปลาย",
+      "ทิ้งไว้ประมาณ 15–30 นาที กรณีเส้นผมใหญ่ควรใช้เวลาเพิ่มขึ้น และกรณีผมยาวควรใช้ 2 ซอง",
+      "เมื่อสีติดผมทั่วศีรษะแล้ว ให้ล้างออกด้วยน้ำสะอาด แล้วนวดเส้นผมด้วยทรีทเมนท์บำรุงเส้นผม"
+    ],
+    "ingredients": [
+      "น้ำมันงาดำ / Sesame Oil",
+      "เฮนน่าธรรมชาติ / Natural Henna",
+      "โชวู / Polygonum Multiflorum Root Extract"
+    ],
+    "img": "/images/products/hair-dye-light-brown.webp",
+    "gallery": [
+      "/images/products/hair-dye-light-brown.webp"
+    ],
+    "slug": "hair-dye-shampoo-natural-light-brown",
+    "relatedGroup": "hair-color-shampoo",
+    "detailPage": true,
+    "price": 89,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "primperfect-toothpaste",
+    "title": "Primperfect Toothpaste",
+    "thai": "ยาสีฟันสมุนไพร PRIM PERFECT",
+    "category": "ORAL CARE",
+    "registration": "10-1-5503592",
+    "size": "25 กรัม",
+    "use": [
+      "ใช้แปรงเปียกหมาดๆ ป้ายยาสีฟันเพียงนิดเดียวเท่าเมล็ดถั่วเขียว",
+      "แปรงทุกเช้า หลังอาหารและก่อนนอน หรือตามที่ทันตแพทย์แนะนำ",
+      "เมื่อใช้แปรงฟันก่อนนอน จะช่วย ลดกลิ่นปาก",
+      "ในตอนเช้าได้เป็นอย่างดี ใช้เป็นประจำทุกวัน",
+      "จะทำให้เหงือกและฟันมีสุขภาพดี ลดคราบหินปูน"
+    ],
+    "ingredients": [
+      "ข่อย",
+      "การบูร",
+      "พิมเสน",
+      "เมนทอล"
+    ],
+    "img": "/images/products/primperfect-toothpaste.webp",
+    "gallery": [
+      "/images/products/primperfect-toothpaste.webp"
+    ],
+    "slug": "primperfect-herbal-toothpaste",
+    "relatedGroup": "toothpaste",
+    "detailPage": true,
+    "price": 99,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "herbal-whintening-fluoride-toothpaste",
+    "title": "Herbal Whitening Fluoride Toothpaste",
+    "thai": "ยาสีฟันสมุนไพร สูตรผสมฟลูออไรด์",
+    "category": "ORAL CARE",
+    "registration": "20-1-6600029957",
+    "size": "50 กรัม",
+    "use": [
+      "บีบยาสีฟันลงบนแปรงในปริมาณเท่าเมล็ดถั่วเขียว ใช้แปรงทำความสะอาดฟัน อย่างน้อยวันละ 2 ครั้ง เช้าและก่อนนอน หรือหลังอาหาร เพื่อผลลัพธ์ที่ดีควรใช้อย่างต่อเนื่อง"
+    ],
+    "ingredients": [
+      "ฟลูออไรด์",
+      "เมนทอล",
+      "การบูร",
+      "พิมเสน",
+      "สาระแหน่",
+      "ใบฝรั่ง",
+      "กานพลู",
+      "โพรพอลิส",
+      "สเปียร์มินต์",
+      "รัททานี",
+      "เสจ",
+      "มดยอบ"
+    ],
+    "img": "/images/products/herbal-whintening-fluoride-toothpaste_1.webp",
+    "gallery": [
+      "/images/products/herbal-whintening-fluoride-toothpaste_1.webp",
+      "/images/products/herbal-whintening-fluoride-toothpaste_2.webp"
+    ],
+    "slug": "herbal-fluoride-toothpaste",
+    "relatedGroup": "toothpaste",
+    "detailPage": true,
+    "price": 149,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "thai-herbal-scrub-cleansing",
+    "title": "Thai Herbal Scrub Cleansing Salt with Moisturizer",
+    "thai": "เกลือขัดผิว สูตรเจ้าสาว",
+    "category": "BODY CARE",
+    "registration": "10-1-5746141",
+    "size": "400 กรัม",
+    "use": [
+      "ก่อนใช้ คนเนื้อเกลือสมุนไพรให้เข้ากันก่อน แล้วชโลมสมุนไพรให้ทั่วผิวกายรอให้แห้ง ขัดเบาๆ แล้วล้างออกด้วยน้ำสะอาด"
+    ],
+    "ingredients": [
+      "-"
+    ],
+    "img": "/images/products/thai-herbal-scrub-cleansing.webp",
+    "gallery": [
+      "/images/products/thai-herbal-scrub-cleansing.webp"
+    ],
+    "slug": "thai-herbal-scrub-cleansing-salt",
+    "relatedGroup": "body-scrub",
+    "detailPage": true,
+    "price": 139,
+    "featured": true,
+    "featuredOrder": 4
+  },
+  {
+    "id": "glycerin-soap",
+    "title": "Tamarind Transparent Glycerine Soap",
+    "thai": "สบู่ใสกลีเซอรีน มะขาม+น้ำผึ้ง สูตรสำหรับผิวหมองคล้ำ",
+    "category": "FACE CARE",
+    "registration": "20-1-5600488",
+    "size": "40 กรัม",
+    "use": [
+      "ใช้ทำความสะอาดผิวหน้า ได้ตามต้องการ"
+    ],
+    "ingredients": [
+      "มะขาม",
+      "น้ำผึ้ง"
+    ],
+    "img": "/images/products/glycerin-soap.webp",
+    "gallery": [
+      "/images/products/glycerin-soap.webp"
+    ],
+    "slug": "tamarind-honey-glycerin-soap",
+    "relatedGroup": "face-care",
+    "detailPage": true,
+    "price": 30,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "scentio-avocado",
+    "title": "Scentio Avocado Brightening Sherbet Scrub",
+    "thai": "เซนทิโอ อะโวคาโด ไบร์เทนนิ่ง เชอร์เบท สครับ",
+    "category": "BODY CARE",
+    "registration": "10-1-5304697",
+    "size": "350 มิลลิลิตร",
+    "use": [
+      "ทาสคับลงบนผิวกายที่เปียกนวดให้ทั่ว แล้วล้างออกด้วยน้ำสะอาด"
+    ],
+    "ingredients": [
+      "-"
+    ],
+    "img": "/images/products/scentio-avocado.webp",
+    "gallery": [
+      "/images/products/scentio-avocado.webp"
+    ],
+    "slug": "scentio-avocado-brightening-sherbet-scrub",
+    "relatedGroup": "body-scrub",
+    "detailPage": true,
+    "price": 229,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "scentio-raspberry",
+    "title": "Scentio Raspberry Pore Minimizing Sherbet Scrub",
+    "thai": "เซนทิโอ ราสเบอร์รี่ พอร์มินิไมซิ่ง เชอร์เบท สครับ",
+    "category": "BODY CARE",
+    "registration": "10-1-5304704",
+    "size": "350 มิลลิลิตร",
+    "use": [
+      "ทาสคับลงบนผิวกายที่เปียกนวดให้ทั่ว แล้วล้างออกด้วยน้ำสะอาด"
+    ],
+    "ingredients": [
+      "-"
+    ],
+    "img": "/images/products/scentio-raspberry.webp",
+    "gallery": [
+      "/images/products/scentio-raspberry.webp"
+    ],
+    "slug": "scentio-raspberry-pore-minimizing-sherbet-scrub",
+    "relatedGroup": "body-scrub",
+    "detailPage": true,
+    "price": 229,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "scentio-apricot",
+    "title": "Scentio Apricot Anti-Aging Sherbet Scrub",
+    "thai": "เซนทิโอ แอพริคอท แอนตี้-เอจจิ้ง เชอร์เบท สครับ",
+    "category": "BODY CARE",
+    "registration": "10-1-5304701",
+    "size": "350 มิลลิลิตร",
+    "use": [
+      "ทาสคับลงบนผิวกายที่เปียกนวดให้ทั่ว แล้วล้างออกด้วยน้ำสะอาด"
+    ],
+    "ingredients": [
+      "-"
+    ],
+    "img": "/images/products/scentio-apricot.webp",
+    "gallery": [
+      "/images/products/scentio-apricot.webp"
+    ],
+    "slug": "scentio-apricot-anti-aging-sherbet-scrub",
+    "relatedGroup": "body-scrub",
+    "detailPage": true,
+    "price": 229,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "fitt-herbal-mouth-spray",
+    "title": "FITT Herbal Mouth spray",
+    "thai": "ฟิตท์ เฮอร์เบิล เม้าท์ สเปรย์",
+    "category": "ORAL CARE",
+    "registration": "20-1-6400031191",
+    "size": "15 มิลลิลิตร",
+    "use": [
+      "ฉีดสเปรย์ภายในช่องปาก 1-2 ครั้ง ใช้ได้บ่อยครั้งตามต้องการ"
+    ],
+    "ingredients": [
+      "สารสกัดโพรพอลิสเข้มข้น",
+      "ชะเอมเทศ",
+      "เมนทอล",
+      "สเปียร์มินต์ ออยล์",
+      "เปปเปอร์มินต์ ออยล์",
+      "น้ำผึ้ง"
+    ],
+    "img": "/images/products/fitt-herbal-mouth-spray.webp",
+    "gallery": [
+      "/images/products/fitt-herbal-mouth-spray.webp"
+    ],
+    "slug": "fitt-herbal-mouth-spray",
+    "relatedGroup": "oral-mouth-spray",
+    "detailPage": true,
+    "price": 89,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "fitt-androlis-mouth-spray",
+    "title": "FITT Androlis Mouth Spray",
+    "thai": "ฟิตท์ แอนโดรลิส เม้าท์ สเปรย์",
+    "category": "ORAL CARE",
+    "registration": "20-1-6500032010",
+    "size": "15 มิลลิลิตร",
+    "use": [
+      "ฉีดสเปรย์ภายในช่องปาก 1-2 ครั้ง ใช้ได้บ่อยครั้งตามต้องการ"
+    ],
+    "ingredients": [
+      "ฟ้าทะลายโจร",
+      "สารสกัดโพรพอลิสเข้มข้น",
+      "ดอกคาโมมายล์",
+      "ชะเอมเทศ",
+      "เมนทอล",
+      "สเปียร์มินต์ ออยล์",
+      "เปปเปอร์มินต์ ออยล์",
+      "น้ำผึ้ง"
+    ],
+    "img": "/images/products/fitt-androlis-mouth-spray.webp",
+    "gallery": [
+      "/images/products/fitt-androlis-mouth-spray.webp"
+    ],
+    "slug": "fitt-androlis-mouth-spray",
+    "relatedGroup": "oral-mouth-spray",
+    "detailPage": true,
+    "price": 179,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "butterfly-pea-shampoo",
+    "title": "Butterfly Pea Shampoo",
+    "thai": "แชมพูสระผม สูตรอัญชัน",
+    "category": "HAIR CARE",
+    "registration": "10-1-6200015324",
+    "size": "500 มิลลิลิตร",
+    "use": [
+      "ชโลมแชมพูลงบนผมที่เปียก นวดเส้นผมเบาๆแล้วล้างออกด้วยน้ำสะอาด",
+      "สระซ้ำได้ตามต้องการ",
+      "ควรใช้ควบคู่กับครีมหมักผมเพื่อสุขภาพผมที่ดียิ่งขึ้น"
+    ],
+    "ingredients": [
+      "สารสกัดจากดอกอัญชัน",
+      "ประคำดีควาย",
+      "วิตามินอี (Vitamin E)",
+      "โปรวิตามินบี 5 (Vitamin Pro B5)"
+    ],
+    "img": "/images/products/butterfly-pea-shampoo.webp",
+    "gallery": [
+      "/images/products/butterfly-pea-shampoo.webp"
+    ],
+    "slug": "butterfly-pea-shampoo",
+    "relatedGroup": "herbal-hair-shampoo",
+    "detailPage": true,
+    "price": 199,
+    "featured": true,
+    "featuredOrder": 2
+  },
+  {
+    "id": "kaffir-lime-shampoo",
+    "title": "Kaffir Lime Herbal Extract Shampoo",
+    "thai": "แชมพูสระผมสมุนไพร สูตรมะกรูด",
+    "category": "HAIR CARE",
+    "registration": "10-1-5908546",
+    "size": "500 มิลลิลิตร",
+    "use": [
+      "ชโลมแชมพูลงบนผมที่เปียก นวดเส้นผมเบาๆแล้วล้างออกด้วยน้ำสะอาด",
+      "สระซ้ำได้ตามต้องการ",
+      "ควรใช้ควบคู่กับครีมหมักผมเพื่อสุขภาพผมที่ดียิ่งขึ้น"
+    ],
+    "ingredients": [
+      "สารสกัดจากมะกรูด",
+      "นํ้ามันมะกอก",
+      "วิตามินอี (Vitamin E)",
+      "โปรวิตามินบี 5 (Vitamin Pro B5)"
+    ],
+    "img": "/images/products/kaffir-lime-shampoo.webp",
+    "gallery": [
+      "/images/products/kaffir-lime-shampoo.webp"
+    ],
+    "slug": "kaffir-lime-herbal-shampoo",
+    "relatedGroup": "herbal-hair-shampoo",
+    "detailPage": true,
+    "price": 199,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "coconut-oil-herbal-shampoo",
+    "title": "Coconut Oil Herbal Shampoo",
+    "thai": "แชมพูสระผมสมุนไพร สูตรมะพร้าว",
+    "category": "HAIR CARE",
+    "registration": "10-1-6200021691",
+    "size": "500 มิลลิลิตร",
+    "use": [
+      "ชโลมแชมพูลงบนผมที่เปียก นวดเส้นผมเบาๆแล้วล้างออกด้วยน้ำสะอาด",
+      "สระซ้ำได้ตามต้องการ",
+      "ควรใช้ควบคู่กับครีมหมักผมเพื่อสุขภาพผมที่ดียิ่งขึ้น"
+    ],
+    "ingredients": [
+      "สารสกัดจากมะพร้าว",
+      "นํ้ามันมะกอก",
+      "วิตามินอี (Vitamin E)",
+      "โปรวิตามินบี 5 (Vitamin Pro B5)"
+    ],
+    "img": "/images/products/coconut-oil-herbal-shampoo.webp",
+    "gallery": [
+      "/images/products/coconut-oil-herbal-shampoo.webp"
+    ],
+    "slug": "coconut-oil-herbal-shampoo",
+    "relatedGroup": "herbal-hair-shampoo",
+    "detailPage": true,
+    "price": 199,
+    "featured": false,
+    "featuredOrder": 0
+  },
+  {
+    "id": "acne-free-botanical-gel",
+    "title": "Acne Free Botanical Gel",
+    "thai": "เจลแต้มสิว สมุนไพร",
+    "category": "FACE CARE",
+    "registration": "20-1-6700004883",
+    "size": "10 กรัม",
+    "use": [
+      "ใช้แต้มบริเวณหัวสิว เช้า และก่อนนอน เป็นประจำทุกวัน"
+    ],
+    "ingredients": [
+      "ชะเอมเทศ",
+      "ว่านหางจระเข้",
+      "เปลือกมังคุด",
+      "วิซฮาเซล",
+      "โรสแมรี่"
+    ],
+    "img": "/images/products/acne-free-botanical-gel.webp",
+    "gallery": [
+      "/images/products/acne-free-botanical-gel.webp"
+    ],
+    "slug": "acne-free-botanical-gel",
+    "relatedGroup": "face-care",
+    "detailPage": true,
+    "price": 109,
+    "featured": true,
+    "featuredOrder": 3
+  }
+]

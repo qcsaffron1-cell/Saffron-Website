@@ -1,0 +1,41 @@
+[
+  {
+    "id": "hero-products",
+    "enabled": true,
+    "theme": "hero-products",
+    "image": "",
+    "alt": "ภาพแอนิเมชันนำเสนอผลิตภัณฑ์ S-LAB",
+    "link": "products.html",
+    "openInNewTab": false,
+    "kicker": "",
+    "title": "",
+    "caption": "",
+    "ariaLabel": "ผลิตภัณฑ์เด่นจาก S-LAB — คลิกเพื่อดูผลิตภัณฑ์ทั้งหมด"
+  },
+  {
+    "id": "anniversary-25",
+    "enabled": true,
+    "theme": "anniversary",
+    "image": "/images/hero-banner.webp",
+    "alt": "Saffron Laboratories ครบรอบ 25 ปี",
+    "link": "about.html",
+    "openInNewTab": false,
+    "kicker": "",
+    "title": "",
+    "caption": "",
+    "ariaLabel": "Saffron Laboratories ครบรอบ 25 ปี"
+  },
+  {
+    "id": "herbal-development",
+    "enabled": true,
+    "theme": "factory",
+    "image": "/images/product-hero.webp",
+    "alt": "กระบวนการทำงานภายในโรงงาน Saffron Laboratories",
+    "link": "herbal.html",
+    "openInNewTab": false,
+    "kicker": "",
+    "title": "",
+    "caption": "",
+    "ariaLabel": "รับพัฒนาผลิตภัณฑ์สมุนไพร"
+  }
+]

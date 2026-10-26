@@ -1,0 +1,2 @@
+Domain intended for final migration: www.saffron-lab.com
+This package omits root CNAME for safe staging. After the new repository has been tested, configure the custom domain in GitHub Pages and create a root file named CNAME containing the domain above.

@@ -1,0 +1,5 @@
+# [อธิบาย S-LAB] กติกาสำหรับ web crawler เช่น หน้าที่อนุญาต/ไม่อนุญาตให้เก็บข้อมูล และตำแหน่ง sitemap
+User-agent: *
+Allow: /
+
+Sitemap: https://www.saffron-lab.com/sitemap.xml
