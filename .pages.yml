@@ -1,0 +1,272 @@
+media:
+  - name: images
+    label: รูปภาพเว็บไซต์ (WebP)
+    input: images
+    output: /images
+    extensions: [webp]
+    categories: [image]
+    rename: safe
+
+content:
+  - name: products
+    label: ผลิตภัณฑ์ทั่วไป
+    type: file
+    path: json/products.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: รหัสสินค้า (ไม่ควรเปลี่ยน)
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+        description: ใช้เป็นรหัสภายในและลิงก์สำรองของสินค้า
+      - name: title
+        label: ชื่อผลิตภัณฑ์ (ภาษาอังกฤษ)
+        type: string
+        required: true
+      - name: thai
+        label: ชื่อผลิตภัณฑ์ (ภาษาไทย)
+        type: string
+        required: true
+      - name: category
+        label: หมวดหมู่
+        type: select
+        required: true
+        options:
+          values: [HAIR CARE, FACE CARE, BODY CARE, ORAL CARE, HEALTH CARE]
+      - name: price
+        label: ราคา (บาท)
+        type: number
+        description: เว้นว่างหากให้ลูกค้าสอบถามราคา
+      - name: featured
+        label: แสดงในส่วนผลิตภัณฑ์แนะนำหน้าแรก
+        type: boolean
+        description: เปิดใช้งานเพื่อแสดงสินค้านี้ในส่วนผลิตภัณฑ์แนะนำหน้าแรก
+      - name: featuredOrder
+        label: ลำดับผลิตภัณฑ์แนะนำ (เลขน้อยแสดงก่อน)
+        type: number
+        description: ใช้ตัวเลข 1–4 เพื่อกำหนดลำดับของสินค้าแนะนำ
+      - name: registration
+        label: เลขทะเบียน
+        type: string
+      - name: size
+        label: ขนาดบรรจุ
+        type: string
+      - name: img
+        label: รูปภาพหลัก
+        type: image
+        required: true
+        options:
+          media: images
+          path: products
+          extensions: [webp]
+      - name: gallery
+        label: รูปภาพแกลเลอรี (เพิ่มได้สูงสุด 10 รูป)
+        type: image
+        options:
+          media: images
+          path: products
+          multiple:
+            max: 10
+          extensions: [webp]
+          unique: true
+      - name: use
+        label: วิธีใช้ (เพิ่มหลายบรรทัดได้)
+        type: text
+        list:
+          collapsible: true
+      - name: ingredients
+        label: ส่วนประกอบ
+        type: text
+        list:
+          collapsible: true
+      - name: slug
+        label: URL สินค้าเดิม (ไม่ควรเปลี่ยน)
+        type: string
+        readonly: true
+      - name: detailPage
+        label: มีหน้า URL รายละเอียดเดิม
+        type: boolean
+        readonly: true
+      - name: relatedGroup
+        label: กลุ่มสินค้าเกี่ยวข้อง
+        type: string
+
+  - name: herbal-products
+    label: ผลิตภัณฑ์สมุนไพร
+    type: file
+    path: json/herbal-products.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: รหัสสินค้า (ไม่ควรเปลี่ยน)
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: title
+        label: ชื่อผลิตภัณฑ์ (ภาษาอังกฤษ)
+        type: string
+        required: true
+      - name: thai
+        label: ชื่อผลิตภัณฑ์ (ภาษาไทย)
+        type: string
+        required: true
+      - name: category
+        label: หมวดหมู่
+        type: select
+        required: true
+        options:
+          values: [HERBAL CARE]
+      - name: price
+        label: ราคา (บาท)
+        type: number
+        description: เว้นว่างหากให้ลูกค้าสอบถามราคา
+      - name: featured
+        label: แสดงในส่วนผลิตภัณฑ์แนะนำหน้าแรก
+        type: boolean
+        description: เปิดใช้งานเพื่อแสดงสินค้านี้ในส่วนผลิตภัณฑ์แนะนำหน้าแรก
+      - name: featuredOrder
+        label: ลำดับผลิตภัณฑ์แนะนำ (เลขน้อยแสดงก่อน)
+        type: number
+        description: ใช้ตัวเลข 1–4 เพื่อกำหนดลำดับของสินค้าแนะนำ
+      - name: registration
+        label: เลขทะเบียน
+        type: string
+      - name: size
+        label: ขนาดบรรจุ
+        type: string
+      - name: herbalType
+        label: ประเภทสมุนไพร
+        type: select
+        options:
+          values: [inhaler, balm, oil, cream, ointment, spray]
+      - name: img
+        label: รูปภาพหลัก
+        type: image
+        required: true
+        options:
+          media: images
+          path: products
+          extensions: [webp]
+      - name: gallery
+        label: รูปภาพแกลเลอรี (เพิ่มได้สูงสุด 10 รูป)
+        type: image
+        options:
+          media: images
+          path: products
+          multiple:
+            max: 10
+          extensions: [webp]
+          unique: true
+      - name: use
+        label: วิธีใช้
+        type: text
+        list:
+          collapsible: true
+      - name: ingredients
+        label: ส่วนประกอบ
+        type: text
+        list:
+          collapsible: true
+      - name: slug
+        label: URL สินค้าเดิม (ไม่ควรเปลี่ยน)
+        type: string
+        readonly: true
+      - name: detailPage
+        label: มีหน้า URL รายละเอียดเดิม
+        type: boolean
+        readonly: true
+      - name: relatedGroup
+        label: กลุ่มสินค้าเกี่ยวข้อง
+        type: string
+
+  - name: activities
+    label: ข่าวสารและกิจกรรม
+    type: file
+    path: json/activities.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: รหัสกิจกรรม (ไม่ควรเปลี่ยน)
+        type: string
+        required: true
+      - name: title
+        label: ชื่อกิจกรรม
+        type: string
+        required: true
+      - name: date
+        label: วันที่แสดงผล
+        type: string
+        required: true
+      - name: category
+        label: หมวดหมู่
+        type: string
+      - name: image
+        label: ภาพปกกิจกรรม
+        type: image
+        required: true
+        options:
+          media: images
+          path: activities
+          extensions: [webp]
+      - name: excerpt
+        label: คำโปรยสั้น
+        type: text
+      - name: body
+        label: เนื้อหากิจกรรม (แต่ละรายการเป็นหนึ่งย่อหน้า)
+        type: text
+        list:
+          collapsible: true
+
+  - name: banners
+    label: แบนเนอร์หน้าแรก
+    type: file
+    path: json/banners.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: รหัสแบนเนอร์
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: enabled
+        label: เปิดแสดงแบนเนอร์
+        type: boolean
+      - name: theme
+        label: รูปแบบการแสดงผล
+        type: select
+        options:
+          values: [hero-products, anniversary, factory, herbal-process, botanical-feature]
+      - name: image
+        label: รูปภาพแบนเนอร์ (WebP; ไม่ต้องระบุเมื่อเลือกรูปแบบ Hero Products)
+        type: image
+        required: false
+        options:
+          media: images
+          extensions: [webp]
+      - name: alt
+        label: คำอธิบายรูปภาพ
+        type: string
+        required: true
+      - name: ariaLabel
+        label: ชื่อแบนเนอร์สำหรับการเข้าถึง
+        type: string
+      - name: link
+        label: ลิงก์ปลายทาง (เช่น products.html หรือ https://...)
+        type: string
+      - name: openInNewTab
+        label: เปิดลิงก์ในแท็บใหม่
+        type: boolean
+      - name: kicker
+        label: ข้อความเล็กเหนือหัวข้อ
+        type: string
+      - name: title
+        label: หัวข้อบนแบนเนอร์
+        type: text
+      - name: caption
+        label: รายละเอียดบนแบนเนอร์
+        type: text
