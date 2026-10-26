@@ -118,7 +118,7 @@ content:
         type: select
         required: true
         options:
-          values: [HERBAL CARE]
+          values: HERBAL CARE
       - name: price
         label: ราคา (บาท)
         type: number
