@@ -1,0 +1,26 @@
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Private credentials
+secrets/
+private/
+credentials/
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Google service account credentials
+*service-account*.json
+firebase-adminsdk*.json
+credentials*.json
+
+# Local-only files
+.DS_Store
+Thumbs.db
+*.log
