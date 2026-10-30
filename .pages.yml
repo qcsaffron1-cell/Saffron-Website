@@ -1,3 +1,5 @@
+operations:
+    delete: false
 media:
   - name: images
     label: รูปภาพเว็บไซต์ (WebP)
