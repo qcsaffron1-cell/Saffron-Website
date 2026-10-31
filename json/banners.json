@@ -3,14 +3,10 @@
     "id": "hero-products",
     "enabled": true,
     "theme": "hero-products",
-    "image": "",
     "alt": "ภาพแอนิเมชันนำเสนอผลิตภัณฑ์ S-LAB",
+    "ariaLabel": "ผลิตภัณฑ์เด่นจาก S-LAB — คลิกเพื่อดูผลิตภัณฑ์ทั้งหมด",
     "link": "products.html",
-    "openInNewTab": false,
-    "kicker": "",
-    "title": "",
-    "caption": "",
-    "ariaLabel": "ผลิตภัณฑ์เด่นจาก S-LAB — คลิกเพื่อดูผลิตภัณฑ์ทั้งหมด"
+    "openInNewTab": false
   },
   {
     "id": "anniversary-25",
@@ -18,24 +14,18 @@
     "theme": "anniversary",
     "image": "/images/hero-banner.webp",
     "alt": "Saffron Laboratories ครบรอบ 25 ปี",
+    "ariaLabel": "Saffron Laboratories ครบรอบ 25 ปี",
     "link": "about.html",
-    "openInNewTab": false,
-    "kicker": "",
-    "title": "",
-    "caption": "",
-    "ariaLabel": "Saffron Laboratories ครบรอบ 25 ปี"
+    "openInNewTab": false
   },
   {
     "id": "herbal-development",
-    "enabled": true,
+    "enabled": false,
     "theme": "factory",
     "image": "/images/product-hero.webp",
     "alt": "กระบวนการทำงานภายในโรงงาน Saffron Laboratories",
+    "ariaLabel": "รับพัฒนาผลิตภัณฑ์สมุนไพร",
     "link": "herbal.html",
-    "openInNewTab": false,
-    "kicker": "",
-    "title": "",
-    "caption": "",
-    "ariaLabel": "รับพัฒนาผลิตภัณฑ์สมุนไพร"
+    "openInNewTab": false
   }
 ]
