@@ -67,7 +67,7 @@
     var text = document.createElement('span');
     text.textContent = 'เว็บไซต์เก็บสถิติแบบรวมเพื่อวิเคราะห์การเข้าชมและปรับปรุงการให้บริการ ซึ่งคุณสามารถดูข้อมูลเพิ่มเติมได้ที่ ';
     var link = document.createElement('a');
-    link.href = 'privacy.html';
+    link.href = 'privacy/';
     link.textContent = 'นโยบายความเป็นส่วนตัว';
     copy.appendChild(heading); copy.appendChild(text); copy.appendChild(link);
     var actions = document.createElement('div');

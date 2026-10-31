@@ -104,7 +104,7 @@
   // Public URLs use the display-name slug; JSON keys remain internal implementation IDs.
   global.slabProductHref = function (id, item) {
     if (item && item.detailPage === true && item.slug) return 'product/' + encodeURIComponent(item.slug) + '/';
-    return 'product-detail.html?id=' + encodeURIComponent(id);
+    return 'product-detail/?id=' + encodeURIComponent(id);
   };
 })(window);
 /* ===== END product data loader (general + herbal JSON) ===== */

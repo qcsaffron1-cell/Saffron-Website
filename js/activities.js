@@ -54,7 +54,7 @@
     var items = Object.keys(data || {}).map(function (id) { return { id: id, item: data[id] || {} }; }).slice(0, 3);
     grid.innerHTML = items.map(function (entry) {
       var item = entry.item;
-      return '<a class="activity-article-card home-activity-card" href="activity-detail.html?id=' + encodeURIComponent(entry.id) + '">' +
+      return '<a class="activity-article-card home-activity-card" href="activity-detail/?id=' + encodeURIComponent(entry.id) + '">' +
         '<div class="activity-article-image"><img src="' + escapeHtml(window.slabAssetHref(item.image)) + '" alt="' + escapeHtml(item.title) + '" loading="lazy"></div>' +
         '<div class="activity-article-content"><p class="activity-article-date">' + escapeHtml(item.date) + '</p>' +
         '<h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.excerpt) + '</p>' +
@@ -79,7 +79,7 @@
     var items = Object.keys(data || {}).map(function (id) { return { id:id, item:data[id] || {} }; });
     grid.innerHTML = items.map(function (entry) {
       var a = entry.item;
-      return '<a class="activity-article-card" href="activity-detail.html?id=' + encodeURIComponent(entry.id) + '">' +
+      return '<a class="activity-article-card" href="activity-detail/?id=' + encodeURIComponent(entry.id) + '">' +
         '<div class="activity-article-image"><img src="' + escapeHtml(window.slabAssetHref(a.image)) + '" alt="' + escapeHtml(a.title) + '" loading="lazy"></div>' +
         '<div class="activity-article-content"><p class="activity-article-date">' + escapeHtml(a.date) + '</p>' +
         '<h3>' + escapeHtml(a.title) + '</h3><p>' + escapeHtml(a.excerpt) + '</p>' +
@@ -118,7 +118,7 @@
     if (related) {
       related.innerHTML = Object.keys(data).filter(function (key) { return key !== id; }).map(function (key) {
         var a=data[key];
-        return '<a class="activity-related-card" href="activity-detail.html?id='+encodeURIComponent(key)+'"><img src="'+escapeHtml(window.slabAssetHref(a.image))+'" alt="'+escapeHtml(a.title)+'" loading="lazy"><div><p>'+escapeHtml(a.date)+'</p><h3>'+escapeHtml(a.title)+'</h3><span>อ่านบทความ →</span></div></a>';
+        return '<a class="activity-related-card" href="activity-detail/?id='+encodeURIComponent(key)+'"><img src="'+escapeHtml(window.slabAssetHref(a.image))+'" alt="'+escapeHtml(a.title)+'" loading="lazy"><div><p>'+escapeHtml(a.date)+'</p><h3>'+escapeHtml(a.title)+'</h3><span>อ่านบทความ →</span></div></a>';
       }).join('');
     }
   }

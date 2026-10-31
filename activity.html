@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
+<script>
+(function () {
+  var path = window.location.pathname || '/';
+  var clean = path;
+  if (/\/index\.html?$/i.test(path)) {
+    clean = path.replace(/index\.html?$/i, '');
+    if (!clean) clean = '/';
+  } else if (/\.html?$/i.test(path)) {
+    clean = path.replace(/\.html?$/i, '/');
+  }
+  if (clean !== path) {
+    window.location.replace(clean + (window.location.search || '') + (window.location.hash || ''));
+  }
+})();
+</script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>กิจกรรม | Saffron Laboratories</title>
@@ -18,39 +34,39 @@
 <!-- [อธิบาย S-LAB] ส่วนหัวเว็บไซต์: โลโก้ ลิงก์นำทาง และปุ่มเมนูสำหรับหน้าจอขนาดเล็ก -->
 <header class="ref-nav" id="siteNav">
   <div class="wrap">
-    <a class="ref-brand" aria-label="Saffron Laboratories Home" href="index">
+    <a class="ref-brand" aria-label="Saffron Laboratories Home" href="./">
       <img alt="S-LAB Saffron Laboratories Co., Ltd." class="ref-logo" src="images/logo.webp" fetchpriority="high">
     </a>
     <nav aria-label="Primary Navigation" class="ref-links" id="refLinks">
-      <a class="dock-item" href="index" aria-label="หน้าแรก" title="หน้าแรก">
+      <a class="dock-item" href="./" aria-label="หน้าแรก" title="หน้าแรก">
   <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="m3.5 10 8.5-7 8.5 7v10a1 1 0 0 1-1 1h-5.2v-6.4H9.7V21H4.5a1 1 0 0 1-1-1V10Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
   <span class="dock-label">หน้าแรก</span>
 </a>
-      <a class="dock-item" href="about" aria-label="เกี่ยวกับเรา" title="เกี่ยวกับเรา">
+      <a class="dock-item" href="about/" aria-label="เกี่ยวกับเรา" title="เกี่ยวกับเรา">
   <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M4 21V6.5L12 3l8 3.5V21M8 9h1m6 0h1M8 13h1m6 0h1M9 21v-4.5h6V21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
   <span class="dock-label">เกี่ยวกับเรา</span>
 </a>
-      <a class="dock-item" href="service" aria-label="การบริการ" title="การบริการ">
+      <a class="dock-item" href="service/" aria-label="การบริการ" title="การบริการ">
   <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="m12 3 9 4.5-9 4.5-9-4.5L12 3Z M3 12l9 4.5 9-4.5M3 16.5 12 21l9-4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
   <span class="dock-label">การบริการ</span>
 </a>
-      <a class="dock-item" href="products" aria-label="ผลิตภัณฑ์" title="ผลิตภัณฑ์">
+      <a class="dock-item" href="products/" aria-label="ผลิตภัณฑ์" title="ผลิตภัณฑ์">
   <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M8 3h8v3H8zM6 6h12l1.3 14H4.7L6 6Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 11h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
   <span class="dock-label">ผลิตภัณฑ์</span>
 </a>
-      <a class="dock-item" href="herbal" aria-label="สมุนไพร" title="สมุนไพร">
+      <a class="dock-item" href="herbal/" aria-label="สมุนไพร" title="สมุนไพร">
   <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M20.5 3.5C11 3.5 5 6.5 5 13.2c0 3.8 2.5 6.1 5.8 6.1 6.3 0 9.7-7.7 9.7-15.8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M3.5 21c3-5.2 6.5-8.3 11.8-11.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
   <span class="dock-label">สมุนไพร</span>
 </a>
-      <a class="dock-item active" href="activity" aria-label="กิจกรรม" title="กิจกรรม" aria-current="page">
+      <a class="dock-item active" href="activity/" aria-label="กิจกรรม" title="กิจกรรม" aria-current="page">
   <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><rect x="3.5" y="5" width="17" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M7.5 3v4M16.5 3v4M3.5 9.5h17M8 13h2m4 0h2M8 16.5h2m4 0h2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
   <span class="dock-label">กิจกรรม</span>
 </a>
-      <a class="dock-item" href="contact" aria-label="ติดต่อ" title="ติดต่อ">
+      <a class="dock-item" href="contact/" aria-label="ติดต่อ" title="ติดต่อ">
   <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
   <span class="dock-label">ติดต่อ</span>
 </a>
-      <a class="dock-item dock-cta" href="inquiry" aria-label="เริ่มสร้างผลิตภัณฑ์กับเรา" title="เริ่มสร้างผลิตภัณฑ์กับเรา">
+      <a class="dock-item dock-cta" href="inquiry/" aria-label="เริ่มสร้างผลิตภัณฑ์กับเรา" title="เริ่มสร้างผลิตภัณฑ์กับเรา">
   <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
   <span class="dock-label">เริ่มสร้างผลิตภัณฑ์กับเรา</span>
 </a>
@@ -66,7 +82,7 @@
 
 <!-- [อธิบาย S-LAB] ส่วนหัวของหน้า: แสดงชื่อหน้าและเส้นทางนำทาง (Breadcrumb) -->
 <section class="page-title-ref">
-<nav class="site-breadcrumb site-breadcrumb--title" aria-label="Breadcrumb"><ol><li><a class="breadcrumb-home" href="index" aria-label="หน้าแรก" title="หน้าแรก"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none"><path d="m3.5 10 8.5-7 8.5 7v10a1 1 0 0 1-1 1h-5.2v-6.4H9.7V21H4.5a1 1 0 0 1-1-1V10Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="sr-only">หน้าแรก</span></a></li><li><span aria-current="page">กิจกรรม</span></li></ol></nav>
+<nav class="site-breadcrumb site-breadcrumb--title" aria-label="Breadcrumb"><ol><li><a class="breadcrumb-home" href="./" aria-label="หน้าแรก" title="หน้าแรก"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none"><path d="m3.5 10 8.5-7 8.5 7v10a1 1 0 0 1-1 1h-5.2v-6.4H9.7V21H4.5a1 1 0 0 1-1-1V10Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="sr-only">หน้าแรก</span></a></li><li><span aria-current="page">กิจกรรม</span></li></ol></nav>
 <div class="page-title-inner"><img loading="lazy" class="page-title-leaves" src="images/page-title-leaves-yellow.webp" alt="" aria-hidden="true"><h1 class="dimensional-heading dimensional-heading--light">กิจกรรม</h1></div></section>
 <!-- [อธิบาย S-LAB] พื้นที่รายการกิจกรรมที่สร้างการ์ดจากข้อมูล JSON -->
 <section class="activity-articles-section">
@@ -107,7 +123,7 @@
       <img loading="lazy" class="ref-footer-mark" src="images/leaf.webp" alt="" aria-hidden="true">
       <div class="ref-footer-rule"></div>
     </div>
-    <div class="ref-footer-copy"><a class="slab-privacy-footer-link" href="privacy">นโยบายความเป็นส่วนตัว / ตั้งค่าคุกกี้</a><span>© 2026 Saffron Laboratories Co., Ltd. All rights reserved.</span></div>
+    <div class="ref-footer-copy"><a class="slab-privacy-footer-link" href="privacy/">นโยบายความเป็นส่วนตัว / ตั้งค่าคุกกี้</a><span>© 2026 Saffron Laboratories Co., Ltd. All rights reserved.</span></div>
   </div>
 </footer>
 

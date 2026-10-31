@@ -9,7 +9,7 @@
     var base = '';
     if (global.location && /\.github\.io$/i.test(global.location.hostname)) {
       var first = (global.location.pathname.split('/').filter(Boolean)[0] || '');
-      var knownRoots = ['index.html','about.html','service.html','products.html','herbal.html','activity.html','activity-detail.html','contact.html','inquiry.html','product-detail.html','product','css','js','images','fonts','json','CNAME'];
+      var knownRoots = ['index','about','service','products','herbal','activity','activity-detail','contact','inquiry','privacy','product-detail','hero-products-animation','index.html','about.html','service.html','products.html','herbal.html','activity.html','activity-detail.html','contact.html','inquiry.html','product-detail.html','product','css','js','images','fonts','json','CNAME'];
       if (first && knownRoots.indexOf(first) === -1 && !/\.html?$/i.test(first)) base = '/' + first + '/';
     }
     return base + clean;
@@ -40,16 +40,18 @@
   function lastPathPart(value) {
     var clean = String(value || '').split(/[?#]/)[0].replace(/\\/g, '/');
     var parts = clean.split('/').filter(Boolean);
-    return (parts.length ? parts[parts.length - 1] : 'index.html').toLowerCase();
+    if (!parts.length || parts[parts.length - 1] === '.') return 'index.html';
+    return parts[parts.length - 1].toLowerCase();
   }
   var pathname = (window.location.pathname || '/').toLowerCase();
-  var currentFile = /\/$/.test(pathname) ? 'index.html' : lastPathPart(pathname);
+  var trimmedPathname = pathname.replace(/\/+$/, '');
+  var currentFile = trimmedPathname ? lastPathPart(trimmedPathname) : 'index.html';
   var isPrettyProduct = /\/product\/[^/]+(?:\/index\.html)?\/?$/.test(pathname);
   var isPrettyActivity = /\/activity\/[^/]+(?:\/index\.html)?\/?$/.test(pathname);
   var activeFile = isPrettyProduct
-    ? (document.body.getAttribute('data-product-kind') === 'herbal' ? 'herbal.html' : 'products.html')
-    : (isPrettyActivity || currentFile === 'activity-detail.html' ? 'activity.html'
-      : (currentFile === 'product-detail.html' ? 'products.html'
+    ? (document.body.getAttribute('data-product-kind') === 'herbal' ? 'herbal' : 'products')
+    : (isPrettyActivity || currentFile === 'activity-detail' || currentFile === 'activity-detail.html' ? 'activity'
+      : (currentFile === 'product-detail' || currentFile === 'product-detail.html' ? 'products'
       : (currentFile === 'index.html' ? 'index.html' : currentFile)));
   links.querySelectorAll('a[href]').forEach(function (link) {
     var target = lastPathPart(link.getAttribute('href') || '');

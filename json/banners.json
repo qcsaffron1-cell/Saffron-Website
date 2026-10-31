@@ -5,7 +5,7 @@
     "theme": "hero-products",
     "alt": "ภาพแอนิเมชันนำเสนอผลิตภัณฑ์ S-LAB",
     "ariaLabel": "ผลิตภัณฑ์เด่นจาก S-LAB — คลิกเพื่อดูผลิตภัณฑ์ทั้งหมด",
-    "link": "products.html",
+    "link": "products/",
     "openInNewTab": false
   },
   {
@@ -15,7 +15,7 @@
     "image": "/images/hero-banner.webp",
     "alt": "Saffron Laboratories ครบรอบ 25 ปี",
     "ariaLabel": "Saffron Laboratories ครบรอบ 25 ปี",
-    "link": "about.html",
+    "link": "about/",
     "openInNewTab": false
   },
   {
@@ -25,7 +25,7 @@
     "image": "/images/product-hero.webp",
     "alt": "กระบวนการทำงานภายในโรงงาน Saffron Laboratories",
     "ariaLabel": "รับพัฒนาผลิตภัณฑ์สมุนไพร",
-    "link": "herbal.html",
+    "link": "herbal/",
     "openInNewTab": false
   }
 ]

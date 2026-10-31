@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html lang="th">
+<head>
+<base href="../">
+
+<script>
+(function () {
+  var path = window.location.pathname || '/';
+  var clean = path;
+  if (/\/index\.html?$/i.test(path)) {
+    clean = path.replace(/index\.html?$/i, '');
+    if (!clean) clean = '/';
+  } else if (/\.html?$/i.test(path)) {
+    clean = path.replace(/\.html?$/i, '/');
+  }
+  if (clean !== path) {
+    window.location.replace(clean + (window.location.search || '') + (window.location.hash || ''));
+  }
+})();
+</script>
+
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About | Saffron Laboratories</title>
+<meta content="Saffron Laboratories Co., Ltd. — Cosmetics OEM Manufacturer with GMP quality management, quality assurance and product development capabilities." name="description"/>
+<link href="https://www.saffron-lab.com/about/" rel="canonical"/>
+<!-- [อธิบาย S-LAB] Metadata สำหรับตัวอย่างหน้าเว็บเมื่อแชร์ลิงก์ในแพลตฟอร์มที่รองรับ Open Graph -->
+<meta content="website" property="og:type"/>
+<meta content="Saffron Laboratories" property="og:site_name"/>
+<meta content="About | Saffron Laboratories" property="og:title"/>
+<meta content="Saffron Laboratories Co., Ltd. — Cosmetics OEM Manufacturer with GMP quality management, quality assurance and product development capabilities." property="og:description"/>
+<meta content="https://www.saffron-lab.com/images/og-image.webp" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="https://www.saffron-lab.com/about/" property="og:url"/>
+<meta content="th_TH" property="og:locale"/>
+<!-- [อธิบาย S-LAB] Metadata สำหรับตัวอย่างหน้าเว็บเมื่อแชร์ลิงก์เป็น Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="About | Saffron Laboratories" name="twitter:title"/>
+<meta content="Saffron Laboratories Co., Ltd. — Cosmetics OEM Manufacturer with GMP quality management, quality assurance and product development capabilities." name="twitter:description"/>
+<meta content="https://www.saffron-lab.com/images/og-image.webp" name="twitter:image"/>
+<link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="images/favicon-48x48.png" rel="icon" sizes="48x48" type="image/png"/>
+<link href="images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<meta content="#2f5d3a" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;family=Noto+Sans+Thai:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="css/style.css?v=20261020-gallery-loading-button-v2" rel="stylesheet"/>
+<link rel="preload" href="fonts/Cloud-Lucent-Regular.ttf?v=20261020-product-modal-certificate-simple-v9" as="font" type="font/ttf" crossorigin="anonymous"></head>
+<body>
+<!-- [อธิบาย S-LAB] ภาพรวมหน้า: เกี่ยวกับเรา: จุดประสงค์บริษัท ข้อมูลบริษัท มาตรฐาน และพันธมิตร. โครงสร้างนี้ใช้ CSS กลาง css/style.css และสคริปต์ที่ระบุไว้ท้ายหน้า. -->
+
+<a class="skip-link" href="about/#main-content">ข้ามไปยังเนื้อหาหลัก</a>
+<!-- [อธิบาย S-LAB] ส่วนหัวเว็บไซต์: โลโก้ ลิงก์นำทาง และปุ่มเมนูสำหรับหน้าจอขนาดเล็ก -->
+<header class="ref-nav" id="siteNav">
+  <div class="wrap">
+    <a class="ref-brand" aria-label="Saffron Laboratories Home" href="./">
+      <img alt="S-LAB Saffron Laboratories Co., Ltd." class="ref-logo" src="images/logo.webp" fetchpriority="high">
+    </a>
+    <nav aria-label="Primary Navigation" class="ref-links" id="refLinks">
+      <a class="dock-item" href="./" aria-label="หน้าแรก" title="หน้าแรก">
+  <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="m3.5 10 8.5-7 8.5 7v10a1 1 0 0 1-1 1h-5.2v-6.4H9.7V21H4.5a1 1 0 0 1-1-1V10Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  <span class="dock-label">หน้าแรก</span>
+</a>
+      <a class="dock-item active" href="about/" aria-label="เกี่ยวกับเรา" title="เกี่ยวกับเรา" aria-current="page">
+  <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M4 21V6.5L12 3l8 3.5V21M8 9h1m6 0h1M8 13h1m6 0h1M9 21v-4.5h6V21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  <span class="dock-label">เกี่ยวกับเรา</span>
+</a>
+      <a class="dock-item" href="service/" aria-label="การบริการ" title="การบริการ">
+  <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="m12 3 9 4.5-9 4.5-9-4.5L12 3Z M3 12l9 4.5 9-4.5M3 16.5 12 21l9-4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  <span class="dock-label">การบริการ</span>
+</a>
+      <a class="dock-item" href="products/" aria-label="ผลิตภัณฑ์" title="ผลิตภัณฑ์">
+  <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M8 3h8v3H8zM6 6h12l1.3 14H4.7L6 6Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 11h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+  <span class="dock-label">ผลิตภัณฑ์</span>
+</a>
+      <a class="dock-item" href="herbal/" aria-label="สมุนไพร" title="สมุนไพร">
+  <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M20.5 3.5C11 3.5 5 6.5 5 13.2c0 3.8 2.5 6.1 5.8 6.1 6.3 0 9.7-7.7 9.7-15.8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M3.5 21c3-5.2 6.5-8.3 11.8-11.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+  <span class="dock-label">สมุนไพร</span>
+</a>
+      <a class="dock-item" href="activity/" aria-label="กิจกรรม" title="กิจกรรม">
+  <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><rect x="3.5" y="5" width="17" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M7.5 3v4M16.5 3v4M3.5 9.5h17M8 13h2m4 0h2M8 16.5h2m4 0h2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+  <span class="dock-label">กิจกรรม</span>
+</a>
+      <a class="dock-item" href="contact/" aria-label="ติดต่อ" title="ติดต่อ">
+  <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  <span class="dock-label">ติดต่อ</span>
+</a>
+      <a class="dock-item dock-cta" href="inquiry/" aria-label="เริ่มสร้างผลิตภัณฑ์กับเรา" title="เริ่มสร้างผลิตภัณฑ์กับเรา">
+  <span class="dock-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+  <span class="dock-label">เริ่มสร้างผลิตภัณฑ์กับเรา</span>
+</a>
+    </nav>
+    <button aria-controls="refLinks" aria-expanded="false" aria-label="เปิดเมนู" class="ref-menu" id="refMenu" type="button">
+      <strong class="ref-menu-text"></strong>
+      <svg class="ref-menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path class="menu-line menu-line-top" d="M4 6h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="menu-line menu-line-middle" d="M4 12h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="menu-line menu-line-bottom" d="M4 18h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+<!-- [อธิบาย S-LAB] เนื้อหาหลักของหน้า (id="main-content") ซึ่งรวมส่วนต่าง ๆ ของหน้านี้ -->
+<main id="main-content">
+
+<!-- [อธิบาย S-LAB] ส่วนหัวของหน้า: แสดงชื่อหน้าและเส้นทางนำทาง (Breadcrumb) -->
+<section class="page-title-ref">
+<nav class="site-breadcrumb site-breadcrumb--title" aria-label="Breadcrumb"><ol><li><a class="breadcrumb-home" href="./" aria-label="หน้าแรก" title="หน้าแรก"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none"><path d="m3.5 10 8.5-7 8.5 7v10a1 1 0 0 1-1 1h-5.2v-6.4H9.7V21H4.5a1 1 0 0 1-1-1V10Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="sr-only">หน้าแรก</span></a></li><li><span aria-current="page">เกี่ยวกับเรา</span></li></ol></nav>
+
+<div class="page-title-inner">
+<img loading="lazy" alt="" aria-hidden="true" class="page-title-leaves" src="images/page-title-leaves-yellow.webp" />
+<h1 class="dimensional-heading dimensional-heading--light">เกี่ยวกับเรา</h1>
+</div>
+</section>
+<!-- [อธิบาย S-LAB] จุดประสงค์และแนวคิดของบริษัท -->
+<section class="ref-purpose">
+<div class="wrap">
+<div class="ref-purpose-text ref-reveal">
+<h2 class="split-reveal">From Concept<br/> to Product.</h2>
+<p class="ref-purpose-lead">เราช่วยเปลี่ยนไอเดียให้กลายเป็นผลิตภัณฑ์จริง</p>
+<p>
+  Saffron Laboratories ให้บริการ OEM เครื่องสำอางแบบครบวงจร พร้อมทำงานร่วมกับแบรนด์ในทุกขั้นตอน ตั้งแต่การวางแนวคิด พัฒนาสูตร คัดเลือกวัตถุดิบ ผลิตและบรรจุ ไปจนถึงการควบคุมคุณภาพและเตรียมผลิตภัณฑ์สู่ตลาด
+  เราให้ความสำคัญกับการทำงานร่วมกับลูกค้าอย่างใกล้ชิด เพื่อทำความเข้าใจความต้องการและพัฒนาแนวคิดให้เป็นผลิตภัณฑ์ที่เหมาะสมกับแบรนด์ โดยมีกระบวนการทำงานที่เป็นระบบ ควบคู่กับการควบคุมคุณภาพในทุกขั้นตอน
+  ตั้งแต่แนวคิดแรก จนถึงผลิตภัณฑ์พร้อมออกสู่ตลาด เราพร้อมเติบโตไปพร้อมกับแบรนด์ของคุณ</p>
+</div>
+</div>
+</section>
+<!-- [อธิบาย S-LAB] ภาพนำเสนอ/จุดเด่นด้านการผลิตเครื่องสำอาง -->
+<section class="ref-cosmetics-banner" aria-labelledby="cosmetics-banner-title" aria-describedby="cosmetics-banner-description">
+<div class="wrap">
+<div class="ref-reveal">
+<h2 id="cosmetics-banner-title">Cosmetics<br/>Manufacturer</h2>
+<p id="cosmetics-banner-description">A Thai cosmetics OEM manufacturer positioned between natural ingredient understanding, formulation development and controlled manufacturing.</p>
+</div>
+</div>
+</section>
+<!-- [อธิบาย S-LAB] ข้อมูลและประวัติของบริษัท พร้อมภาพประกอบ -->
+<section class="about-company-profile">
+<div class="wrap about-company-grid">
+<div class="about-company-copy ref-reveal">
+<p class="about-kicker">COMPANY PROFILE</p>
+<h2>มาตรฐานและการรับรอง</h2>
+<p>บริษัท แซฟฟรอน แลบบอราทอรี่ส์ จำกัด เป็นผู้นำด้านการรับผลิตเครื่องสำอาง โดยมุ่งมั่นในการให้บริการและผลิตภัณฑ์ที่มีคุณภาพสูงสุดแก่ลูกค้า</p>
+<p>คุณภาพคือสิ่งสำคัญอันดับหนึ่ง เราภูมิใจที่ได้รับการรับรองมาตรฐานการผลิตที่ดี (GMP) จากองค์การอาหารและยา กระทรวงสาธารณสุข การรับรองนี้เป็นข้อพิสูจน์ถึงกระบวนการควบคุมคุณภาพที่เข้มงวดและความมุ่งมั่นของเราในการผลิตเครื่องสำอางที่ปลอดภัยและมีประสิทธิภาพ</p>
+<p>และรับรางวัลมาตรฐานอุตสาหกรรมสีเขียว (Green Industry) ระดับ 2 ซึ่งสะท้อนถึงความพยายามของเราในการลดผลกระทบต่อสิ่งแวดล้อมและส่งเสริมนโยบายที่เป็นมิตรต่อสิ่งแวดล้อมในทุกขั้นตอนการดำเนินงาน</p>
+</div>
+<div aria-label="ภาพกระบวนการผลิตและห้องปฏิบัติการ" class="about-photo-mosaic ref-reveal">
+<figure class="about-photo about-photo-tall"><img alt="กระบวนการผลิตภายในโรงงาน" loading="lazy" src="images/about/about-production-vessel.webp"/></figure>
+<figure class="about-photo about-photo-small"><img alt="การทำงานในห้องปฏิบัติการ" loading="lazy" src="images/about/about-lab-scale.webp"/></figure>
+<figure class="about-photo about-photo-wide"><img alt="สายการผลิตในโรงงาน" loading="lazy" src="images/about/about-production-line.webp"/></figure>
+</div>
+</div>
+</section>
+<!-- [อธิบาย S-LAB] แกลเลอรีใบรับรองและมาตรฐาน โดยใช้สไลเดอร์ -->
+<section class="ref-standards about-standards-block">
+<div class="wrap">
+<p class="ref-divider">มาตรฐานของบริษัท</p>
+<div class="standards-slider ref-reveal" data-slider data-slider-label="ใบรับรองที่" aria-roledescription="carousel" aria-label="ใบรับรองมาตรฐาน" tabindex="0">
+<div class="standards-certs" data-slider-track>
+<figure class="standards-cert">
+<a class="certificate-view-link" href="images/certificates/cert-gmp.webp" aria-label="เปิดดูใบรับรอง GMP ขนาดเต็ม"><img alt="หนังสือรับรองมาตรฐานวิธีการที่ดีในการผลิต GMP" loading="lazy" src="images/certificates/cert-gmp.webp"></a>
+</figure>
+<figure class="standards-cert">
+<a class="certificate-view-link" href="images/certificates/cert-gmp-herbal.webp" aria-label="เปิดดูใบรับรอง GMP-Herbal ขนาดเต็ม"><img alt="หนังสือรับรองมาตรฐานวิธีการที่ดีในการผลิต GMP-Herbal" loading="lazy" src="images/certificates/cert-gmp-herbal.webp"></a>
+</figure>
+<figure class="standards-cert">
+<a class="certificate-view-link" href="images/certificates/cert-tls.webp" aria-label="เปิดดูใบรับรอง มรท. ขนาดเต็ม"><img alt="หนังสือรับรองมาตรฐาน TLS" loading="lazy" src="images/certificates/cert-tls.webp"></a>
+</figure>
+<figure class="standards-cert">
+<a class="certificate-view-link" href="images/certificates/cert-green-industry.webp" aria-label="เปิดดูใบรับรองอุตสาหกรรมสีเขียวระดับที่ 2 ขนาดเต็ม"><img alt="ใบรับรองอุตสาหกรรมสีเขียวระดับที่ 2" loading="lazy" src="images/certificates/cert-green-industry.webp"></a>
+</figure>
+<figure class="standards-cert">
+<a class="certificate-view-link" href="images/certificates/cert-happy-workplace.webp" aria-label="เปิดดูใบรับรององค์กรแห่งความสุขขนาดเต็ม"><img alt="ใบรับรองมาตรฐานองค์กรแห่งความสุข (มอส.) ระดับดีเยี่ยม" loading="lazy" src="images/certificates/cert-happy-workplace.webp"></a>
+</figure>
+</div>
+<button class="slider-arrow slider-arrow--prev" type="button" data-slider-prev aria-label="ใบรับรองก่อนหน้า"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<button class="slider-arrow slider-arrow--next" type="button" data-slider-next aria-label="ใบรับรองถัดไป"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div data-slider-dots role="group" aria-label="เลือกใบรับรอง"></div>
+</div>
+</div>
+</section>
+<!-- [อธิบาย S-LAB] แกลเลอรีโลโก้พันธมิตร -->
+<section aria-label="พันธมิตรของ Saffron Laboratories" class="ref-partners ref-partners--full">
+<div class="ref-partners-head">
+<p class="ref-partners-kicker">OUR PARTNERS</p>
+<h2>พันธมิตร</h2>
+</div>
+<div class="ref-partners-marquee" role="region" tabindex="0" aria-roledescription="แกลเลอรี" aria-label="แกลเลอรีโลโก้พันธมิตร ใช้เมาส์ ล้อเลื่อน หรือปุ่มลูกศรเพื่อดูโลโก้">
+<div class="ref-partners-track">
+<div class="ref-partner-item" data-partner-index="1" role="img" aria-label="โลโก้พันธมิตร 1"><img loading="lazy" alt="โลโก้พันธมิตร 1" src="images/partners/partner-01.webp" /></div>
+<div class="ref-partner-item" data-partner-index="2" role="img" aria-label="โลโก้พันธมิตร 2"><img loading="lazy" alt="โลโก้พันธมิตร 2" src="images/partners/partner-02.webp" /></div>
+<div class="ref-partner-item" data-partner-index="3" role="img" aria-label="โลโก้พันธมิตร 3"><img loading="lazy" alt="โลโก้พันธมิตร 3" src="images/partners/partner-03.webp" /></div>
+<div class="ref-partner-item" data-partner-index="4" role="img" aria-label="โลโก้พันธมิตร 4"><img loading="lazy" alt="โลโก้พันธมิตร 4" src="images/partners/partner-04.webp" /></div>
+<div class="ref-partner-item" data-partner-index="5" role="img" aria-label="โลโก้พันธมิตร 5"><img loading="lazy" alt="โลโก้พันธมิตร 5" src="images/partners/partner-05.webp" /></div>
+<div class="ref-partner-item" data-partner-index="6" role="img" aria-label="โลโก้พันธมิตร 6"><img loading="lazy" alt="โลโก้พันธมิตร 6" src="images/partners/partner-06.webp" /></div>
+<div class="ref-partner-item" data-partner-index="7" role="img" aria-label="โลโก้พันธมิตร 7"><img loading="lazy" alt="โลโก้พันธมิตร 7" src="images/partners/partner-07.webp" /></div>
+<div class="ref-partner-item" data-partner-index="8" role="img" aria-label="โลโก้พันธมิตร 8"><img loading="lazy" alt="โลโก้พันธมิตร 8" src="images/partners/partner-08.webp" /></div>
+<div class="ref-partner-item" data-partner-index="9" role="img" aria-label="โลโก้พันธมิตร 9"><img loading="lazy" alt="โลโก้พันธมิตร 9" src="images/partners/partner-09.webp" /></div>
+<div class="ref-partner-item" data-partner-index="10" role="img" aria-label="โลโก้พันธมิตร 10"><img loading="lazy" alt="โลโก้พันธมิตร 10" src="images/partners/partner-10.webp" /></div>
+<div class="ref-partner-item" data-partner-index="11" role="img" aria-label="โลโก้พันธมิตร 11"><img loading="lazy" alt="โลโก้พันธมิตร 11" src="images/partners/partner-11.webp" /></div>
+<div class="ref-partner-item" data-partner-index="12" role="img" aria-label="โลโก้พันธมิตร 12"><img loading="lazy" alt="โลโก้พันธมิตร 12" src="images/partners/partner-12.webp" /></div>
+<div class="ref-partner-item" data-partner-index="13" role="img" aria-label="โลโก้พันธมิตร 13"><img loading="lazy" alt="โลโก้พันธมิตร 13" src="images/partners/partner-13.webp" /></div>
+<div class="ref-partner-item" data-partner-index="14" role="img" aria-label="โลโก้พันธมิตร 14"><img loading="lazy" alt="โลโก้พันธมิตร 14" src="images/partners/partner-14.webp" /></div>
+<div class="ref-partner-item" data-partner-index="15" role="img" aria-label="โลโก้พันธมิตร 15"><img loading="lazy" alt="โลโก้พันธมิตร 15" src="images/partners/partner-15.webp" /></div>
+<div class="ref-partner-item" data-partner-index="16" role="img" aria-label="โลโก้พันธมิตร 16"><img loading="lazy" alt="โลโก้พันธมิตร 16" src="images/partners/partner-16.webp" /></div>
+<div class="ref-partner-item" data-partner-index="17" role="img" aria-label="โลโก้พันธมิตร 17"><img loading="lazy" alt="โลโก้พันธมิตร 17" src="images/partners/partner-17.webp" /></div>
+<div class="ref-partner-item" data-partner-index="18" role="img" aria-label="โลโก้พันธมิตร 18"><img loading="lazy" alt="โลโก้พันธมิตร 18" src="images/partners/partner-18.webp" /></div>
+</div>
+</div>
+</section>
+</main>
+<button aria-label="กลับขึ้นด้านบน" class="back-to-top" id="backToTop" type="button"><span>↑</span></button>
+<!-- [อธิบาย S-LAB] ส่วนท้ายเว็บไซต์: ข้อมูลบริษัท ช่องทางติดต่อ และลิขสิทธิ์ -->
+<footer class="ref-footer">
+<div class="ref-footer-wrap">
+<div class="ref-footer-main">
+<div class="ref-footer-brand">
+<img loading="lazy" alt="S-LAB Saffron Laboratories" class="ref-footer-logo" src="images/logo.webp" />
+</div>
+<div class="ref-footer-company">
+<strong>บริษัท แซฟฟรอน ลาบอราทอรี่ส์ จำกัด</strong>
+<span class="ref-footer-en">SAFFRON LABORATORIES CO., LTD.</span>
+<span class="ref-footer-address">32/38-39 หมู่ที่ 2 ตำบลหนองกะขะ อำเภอพานทอง</span>
+<span>จ.ชลบุรี 20160</span>
+</div>
+<div class="ref-footer-contact">
+<strong>Cosmetics OEM Manufacturer</strong>
+<span><i aria-hidden="true" class="ref-footer-icon ref-icon-phone"></i>Call Center : 086-999-2899 หรือ 092-883-9199</span>
+<span><i aria-hidden="true" class="ref-footer-icon ref-icon-mail"></i>Email : saffronlab2001@gmail.com</span>
+</div>
+</div>
+<div class="ref-footer-bottom">
+<div class="ref-footer-rule"></div>
+<img loading="lazy" alt="" aria-hidden="true" class="ref-footer-mark" src="images/leaf.webp" />
+<div class="ref-footer-rule"></div>
+</div>
+<div class="ref-footer-copy"><a class="slab-privacy-footer-link" href="privacy/">นโยบายความเป็นส่วนตัว / ตั้งค่าคุกกี้</a><span>© 2026 Saffron Laboratories Co., Ltd. All rights reserved.</span></div>
+</div>
+</footer>
+<!-- [อธิบาย S-LAB] สคริปต์เฉพาะหน้า: ใช้สำหรับตั้งค่าหรือข้อมูลประกอบการทำงานของหน้านี้ -->
+<script>
+/* S-LAB partner gallery: subtly curved, inertia-based, endlessly looping. */
+(function () {
+  'use strict';
+  var viewport = document.querySelector('.ref-partners-marquee');
+  var track = document.querySelector('.ref-partners-track');
+  if (!viewport || !track) return;
+
+  var seen = new Set();
+  var originalItems = Array.prototype.slice.call(track.querySelectorAll('.ref-partner-item')).filter(function (item) {
+    var img = item.querySelector('img');
+    var src = img ? img.getAttribute('src') : '';
+    if (!src || seen.has(src)) return false;
+    seen.add(src);
+    return true;
+  });
+  if (!originalItems.length) return;
+
+  track.replaceChildren.apply(track, originalItems);
+  originalItems.forEach(function (item, index) {
+    item.dataset.partnerIndex = String(index + 1);
+    var image = item.querySelector('img');
+    if (image && !image.alt) image.alt = 'โลโก้พันธมิตร ' + (index + 1);
+    var clone = item.cloneNode(true);
+    clone.dataset.galleryClone = 'true';
+    clone.setAttribute('aria-hidden', 'true');
+    clone.removeAttribute('role');
+    clone.removeAttribute('aria-label');
+    var cloneImage = clone.querySelector('img');
+    if (cloneImage) cloneImage.alt = '';
+    track.appendChild(clone);
+  });
+
+  var allItems = Array.prototype.slice.call(track.querySelectorAll('.ref-partner-item'));
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var x = 0;
+  var cycleWidth = 0;
+  var gap = 0;
+  var velocity = 0;
+  var pointerStartX = 0;
+  var pointerStartScroll = 0;
+  var pointerLastX = 0;
+  var pointerLastScroll = 0;
+  var pointerLastTime = 0;
+  var dragging = false;
+  var hovered = false;
+  var focused = false;
+  var lastTime = performance.now();
+  var raf = 0;
+  var resizeRaf = 0;
+  var interactionUntil = 0;
+  var disposed = false;
+  var speed = 0.050; // 50 px/s; faster than the previous slow marquee.
+
+  function mod(value, divisor) { return ((value % divisor) + divisor) % divisor; }
+  function wrap() {
+    if (!cycleWidth) return;
+    while (x <= -cycleWidth) x += cycleWidth;
+    while (x > 0) x -= cycleWidth;
+  }
+  function measure() {
+    gap = parseFloat(window.getComputedStyle(track).columnGap || window.getComputedStyle(track).gap) || 0;
+    cycleWidth = originalItems.reduce(function (sum, item) { return sum + item.getBoundingClientRect().width; }, 0) + gap * originalItems.length;
+    wrap();
+    render();
+  }
+  function render() {
+    if (!cycleWidth) return;
+    track.style.transform = 'translate3d(' + x.toFixed(3) + 'px,0,0)';
+    var viewportWidth = viewport.clientWidth || 1;
+    var centerX = viewportWidth / 2;
+    var curveRange = Math.max(viewportWidth * 0.68, 1);
+    allItems.forEach(function (item) {
+      var rawCenter = item.offsetLeft + x + item.offsetWidth / 2;
+      var center = mod(rawCenter - centerX + cycleWidth / 2, cycleWidth) - cycleWidth / 2 + centerX;
+      var delta = center - centerX;
+      var normalized = Math.max(-1, Math.min(1, delta / curveRange));
+      var distance = Math.min(1, Math.abs(normalized));
+      /* Deliberately subtle bend: up to 13px vertical arc, 1.8deg rotation. */
+      var y = Math.pow(distance, 2) * 13;
+      var rotation = normalized * 1.8;
+      var scale = 1 - distance * 0.025;
+      item.style.transform = 'translate3d(0,' + y.toFixed(2) + 'px,0) rotate(' + rotation.toFixed(2) + 'deg) scale(' + scale.toFixed(3) + ')';
+    });
+  }
+  function pointerX(event) { return event.clientX; }
+  function onPointerDown(event) {
+    if (event.pointerType === 'mouse' && event.button !== 0) return;
+    dragging = true;
+    velocity = 0;
+    pointerStartX = pointerX(event);
+    pointerLastX = pointerStartX;
+    pointerStartScroll = x;
+    pointerLastScroll = x;
+    pointerLastTime = performance.now();
+    viewport.classList.add('is-dragging');
+    if (viewport.setPointerCapture && event.pointerId != null) {
+      try { viewport.setPointerCapture(event.pointerId); } catch (_) {}
+    }
+    if (event.pointerType === 'mouse') event.preventDefault();
+  }
+  function onPointerMove(event) {
+    if (!dragging) return;
+    var currentX = pointerX(event);
+    var now = performance.now();
+    var dt = Math.max(1, now - pointerLastTime);
+    var unwrappedX = pointerStartScroll + (currentX - pointerStartX);
+    velocity = (unwrappedX - pointerLastScroll) / dt;
+    pointerLastScroll = unwrappedX;
+    x = unwrappedX;
+    wrap();
+    pointerLastX = currentX;
+    pointerLastTime = now;
+    render();
+    if (event.cancelable && event.pointerType === 'mouse') event.preventDefault();
+  }
+  function onPointerUp(event) {
+    if (!dragging) return;
+    dragging = false;
+    viewport.classList.remove('is-dragging');
+    interactionUntil = performance.now() + 350;
+    if (viewport.releasePointerCapture && event.pointerId != null) {
+      try { if (viewport.hasPointerCapture(event.pointerId)) viewport.releasePointerCapture(event.pointerId); } catch (_) {}
+    }
+  }
+  function onWheel(event) {
+    var delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
+    if (!delta) return;
+    event.preventDefault();
+    x -= delta * 0.72;
+    velocity = Math.max(-0.18, Math.min(0.18, -delta * 0.00045));
+    wrap();
+    render();
+    interactionUntil = performance.now() + 450;
+  }
+  function onKeyDown(event) {
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+      event.preventDefault();
+      x += event.key === 'ArrowLeft' ? 230 : -230;
+      velocity = 0;
+      wrap();
+      render();
+      interactionUntil = performance.now() + 450;
+    }
+    if (event.key === 'Home') { event.preventDefault(); x = 0; velocity = 0; render(); }
+  }
+  function frame(now) {
+    if (disposed) return;
+    var dt = Math.min(now - lastTime, 40);
+    lastTime = now;
+    var paused = dragging || hovered || focused || now < interactionUntil;
+    if (!paused && !reduceMotion) {
+      if (Math.abs(velocity) > 0.045) {
+        x += velocity * dt;
+        velocity *= Math.pow(0.90, dt / 16.67);
+      } else {
+        velocity = 0;
+        x -= speed * dt;
+      }
+      wrap();
+      render();
+    }
+    raf = window.requestAnimationFrame(frame);
+  }
+  function onResize() {
+    if (resizeRaf) window.cancelAnimationFrame(resizeRaf);
+    resizeRaf = window.requestAnimationFrame(function () { measure(); });
+  }
+  function onPageHide() {
+    disposed = true;
+    window.cancelAnimationFrame(raf);
+    window.cancelAnimationFrame(resizeRaf);
+  }
+
+  viewport.addEventListener('pointerdown', onPointerDown);
+  viewport.addEventListener('pointermove', onPointerMove);
+  viewport.addEventListener('pointerup', onPointerUp);
+  viewport.addEventListener('pointercancel', onPointerUp);
+  viewport.addEventListener('wheel', onWheel, { passive: false });
+  viewport.addEventListener('keydown', onKeyDown);
+  viewport.addEventListener('pointerenter', function () { hovered = true; });
+  viewport.addEventListener('pointerleave', function () { hovered = false; });
+  viewport.addEventListener('focusin', function () { focused = true; });
+  viewport.addEventListener('focusout', function () { focused = false; });
+  window.addEventListener('resize', onResize, { passive: true });
+  window.addEventListener('pagehide', onPageHide, { once: true });
+  measure();
+  raf = window.requestAnimationFrame(frame);
+})();
+</script>
+
+
+
+
+
+
+<!-- [อธิบาย S-LAB] สคริปต์พฤติกรรมร่วมทั้งเว็บไซต์ เช่น เมนูมือถือ แอนิเมชันเมื่อเลื่อน สไลเดอร์ ปุ่มย้อนขึ้นด้านบน และหน้าต่างดูภาพ -->
+<script src="js/analytics.js?v=20261026-privacy-consent-v3"></script>
+<script src="js/site.js?v=20261020-gallery-loading-button-v2"></script>
+</body>
+</html>

@@ -1,5 +1,21 @@
 <!DOCTYPE html>
-<html lang="th"><head><meta charset="utf-8">
+<html lang="th"><head>
+<script>
+(function () {
+  var path = window.location.pathname || '/';
+  var clean = path;
+  if (/\/index\.html?$/i.test(path)) {
+    clean = path.replace(/index\.html?$/i, '');
+    if (!clean) clean = '/';
+  } else if (/\.html?$/i.test(path)) {
+    clean = path.replace(/\.html?$/i, '/');
+  }
+  if (clean !== path) {
+    window.location.replace(clean + (window.location.search || '') + (window.location.hash || ''));
+  }
+})();
+</script>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>S-LAB Hero Products Animation</title>
 <style>

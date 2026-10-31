@@ -30,7 +30,7 @@
     // The Hero Products animation is an isolated page so its animation CSS/JS cannot clash with site styles.
     // site.js sends slab:hero-play/slab:hero-pause when this slide becomes active/inactive.
     if (banner.theme === 'hero-products') {
-      var animationSrc = window.slabAssetHref('hero-products-animation.html?embed=1');
+      var animationSrc = window.slabAssetHref('hero-products-animation/?embed=1');
       var targetAttrs = link ? ' href="' + escapeHtml(link) + '"' +
         (banner.openInNewTab ? ' target="_blank" rel="noopener noreferrer"' : '') : '';
       var keyboardLink = link ? '<a class="hero-products-link"' + targetAttrs +
