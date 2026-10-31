@@ -20,7 +20,7 @@
   },
   {
     "id": "herbal-development",
-    "enabled": false,
+    "enabled": true,
     "theme": "factory",
     "image": "/images/product-hero.webp",
     "alt": "กระบวนการทำงานภายในโรงงาน Saffron Laboratories",
